@@ -1,5 +1,7 @@
 #github-update-checker
 
+[truck loader](http://truckloader1234.xyz/truck-loader/)
+
 Compares project's package.json version and latest GitHub tag version and returns the result.
 
 It's really dumb, it just extracts all numbers from a tag name and doesn't use semver, so "v1.1.1" will become "111".
